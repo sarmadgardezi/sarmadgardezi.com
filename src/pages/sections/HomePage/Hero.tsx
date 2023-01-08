@@ -59,11 +59,6 @@ export const HeroSection: React.FC = () => {
         <p>I help individuals and companies build better web applications.</p>
         <p>Available for freelance work Islamabad or remote.</p>
       </ContentWrapper>
-      <div className="profile-card-bg">
-        <ContentWrapper>
-        
-        </ContentWrapper>
-      </div>
     </StyledSection>
   );
 };

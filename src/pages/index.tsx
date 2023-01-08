@@ -17,6 +17,7 @@ import { NextSeo } from "next-seo";
 import { baseUrl } from "../constants";
 import { sznmOgImage } from "../utils/sznmOgImage";
 import { SocialProfileJsonLd } from 'next-seo';
+import { HeroSection } from "./sections/HomePage/Hero";
 type Props = {
   videos: Video[];
   posts: BlogPost[];
@@ -58,6 +59,7 @@ const Home = ({ videos, posts }: Props) => {
       ]}
     />
     <PageTransition>
+    <HeroSection />
       <Hero />
       <CoursesSection courses={courses} />
       <Stack  marginTop={10}  />

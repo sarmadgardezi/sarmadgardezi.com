@@ -1,4 +1,4 @@
-import { theme } from '@config/stitches.config';
+import { theme } from '../../../config/stitches.config';
 
 import { TextDecorationSvgProps } from '.';
 

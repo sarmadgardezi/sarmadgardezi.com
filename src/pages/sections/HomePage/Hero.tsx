@@ -41,7 +41,7 @@ const StyledSection = styled('section', {
   },
 });
 
-export const HeroSection: React.FC = () => {
+export const HeroSection = () => {
   const { colors } = theme;
   return (
     <StyledSection id="hero-section">

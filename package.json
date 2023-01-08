@@ -11,6 +11,7 @@
     "export": "next export"
   },
   "dependencies": {
+    "stitches-reset": "^1.0.0",
     "@stitches/react": "^1.2.8",
     "@chakra-ui/react": "^1.7.3",
     "@emotion/cache": "^11.7.1",

@@ -49,8 +49,8 @@ export const HeroSection = () => {
         <h1>
           <TextDecoration variant="spark" color={colors.secondary500.value}>
             Writing
-          </TextDecoration>{' '}
-          code. Thinking{' '}
+          </TextDecoration>
+          code. Thinking
           <TextDecoration variant="underline" color={colors.pinky.value}>
             Design
           </TextDecoration>
